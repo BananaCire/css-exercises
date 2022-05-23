@@ -1,5 +1,6 @@
 /*I forgot that there were only three items in the header. 2 lists and 1 logo.
-So i didn't think of using justify-content:space-between; in the header.*/
+So i didn't think of using justify-content:space-between; in the header.
+Each element is it's own container!!!*/
 
 .header {
   display:flex;
