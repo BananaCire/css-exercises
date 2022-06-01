@@ -9,10 +9,26 @@ body {
 }
 
 .header {
+  /*Added Code*/
+  display:flex;
+  justify-content: space-between;
+  padding:8px;
+  /*Added Code*/
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+ 
 }
+
+ /*Added Code*/
+ .left, .right {
+  display:flex;
+  align-items:center;
+  gap:16px;
+ }
+ /*Added Code*/
+
+
 
 .profile-image {
   background: rebeccapurple;
@@ -44,5 +60,13 @@ a {
 }
 
 ul {
+  /*Added Code*/
+  display:flex;
+  gap:16px;
+  margin:0;
+  padding:0;
+  /*Added Code*/
   list-style-type: none;
 }
+
+
