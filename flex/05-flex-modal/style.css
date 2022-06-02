@@ -20,7 +20,26 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /*My Code*/
+  display:flex;
+  padding:20px;
+  gap:20px;
 }
+
+ /*My Code*/
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom:8px;
+  font-size:25px;
+  font-weight:700;
+}
+
+ /*My Code*/
+ .text {
+   margin-bottom:20px;
+ }
 
 .icon {
   color: royalblue;
@@ -33,6 +52,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*My Code*/
+  flex-shrink:0;
 }
 
 .close-button {
